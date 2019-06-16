@@ -30,7 +30,7 @@ general_sqrt <- function (x){
 
   # Issue warning for longer vectors
   if (length(x) > 1) {
-    warning('Argument of general_sqrt has length greater than 1')
+    print('Argument of general_sqrt has length greater than 1')
   }
 
   # Return the normal square root if x > 0
