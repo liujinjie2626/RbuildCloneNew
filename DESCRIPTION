@@ -1,0 +1,18 @@
+Package: RbuildCloneNew
+Title: Develop R Package
+Version: 0.1.0
+Author: Jinjie Liu
+Maintainer: Jinjie Liu <liujinjie26@gmail.com>
+Description: Develop a R package.
+Depends: R (>= 3.5.3)
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Imports:
+  ggplot2
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+RoxygenNote: 6.1.1
+VignetteBuilder: knitr
