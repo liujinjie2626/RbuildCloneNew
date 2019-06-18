@@ -51,4 +51,3 @@ artifacts:
   - path: '\*_*.zip'
     name: Bits
 
-r_packages: ggplot2
